@@ -303,6 +303,9 @@ a img.aligncenter {
     HEADER
 -------------------------------------------------------------------*/
 
+.navbar{
+    max-height: 9%;
+} 
 
 
 .navbar-dark .navbar-nav .nav-link{
@@ -326,7 +329,7 @@ a img.aligncenter {
     bottom: 0;
     left: 0;
 	right: 0;
-	text-align: center;
+	/* text-align: center; */
 	margin: 0 auto;
     border-radius: 0px;
     -webkit-transition: all .5s;
@@ -2517,4 +2520,91 @@ select.mobile-device {
   .social-icons li a:hover {
     color:lightgray;
     background-color: #1f1f1f;
+  }
+
+
+  /* skills  */
+  .skills-row {
+    margin-top: 80px;
+  }
+  .skill-item {
+    border-bottom: 1px solid rgba(250,250,250,0.1);
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  .last-skill {
+    border-bottom: none;
+  }
+  .skills-row span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #ccf2f4;
+    color: #1e1e1e;
+    border-radius: 50%;
+    font-size: 16px;
+    font-weight: 700;
+    left: 0;
+    top: -21px;
+    position: absolute;
+    z-index: 999;
+  }
+  .skills-row h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:black;      /* title designs*/
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  .skill-bar {
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #e6e6e6;
+    position: relative;
+  }
+  .filled-bar {
+    position: absolute;
+    z-index: 99;
+    width: 68%;
+    height: 6px;
+    background-color:#383e56;
+    border-radius: 3px;
+  }
+  .filled-bar-2 {
+    position: absolute;
+    z-index: 99;
+    width: 49%;
+    height: 6px;
+    background-color:#383e56;
+    border-radius: 3px;
+  }
+  
+
+  .filled-bar-3 {
+    position: absolute;
+    z-index: 99;
+    width: 70%;
+    height: 6px;
+    background-color:#383e56;
+    border-radius: 3px;
+  }
+  .filled-bar-4 {
+    position: absolute;
+    z-index: 99;
+    width: 64%;
+    height: 6px;
+    background-color:#383e56;
+    border-radius: 3px;
+  }
+  .filled-bar-5 {
+    position: absolute;
+    z-index: 99;
+    width: 83%;
+    height: 6px;
+    background-color:#383e56;
+    border-radius: 3px;
   }
