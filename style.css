@@ -138,6 +138,15 @@ a {
     outline: none;
 }
 
+
+#resumespan{
+    border: white 1px solid; padding: 5px;
+}
+#resumespan:hover{
+    background-color: white;
+    color: black;
+}
+
 a,
 .btn {
     text-decoration: none !important;
@@ -444,6 +453,10 @@ xclip
   opacity: 1;
 }
 
+.navbar-shrink-mobile{
+    background-color: #333333;
+    text-align: center;
+}
 
 #mainNav.navbar-shrink {
     padding-top: 10px;
@@ -539,7 +552,7 @@ xclip
 .section-title {
     display: block;
     position: relative;
-    margin-bottom: 60px;
+    /* margin-bottom: 10px; */
 }
 
 .section-title p {

@@ -4,9 +4,24 @@
 
 
 (function($) {
-    "use strict";
 
-	
+  // console.log(screen.width);
+  if(screen.width < 1000){
+		  $("#ul-nav").addClass("navbar-shrink-mobile");		
+  }
+  $( window ).resize(function() {
+    if(screen.width < 1000){
+		  $("#ul-nav").addClass("navbar-shrink-mobile");	
+  }
+  else{
+    $("#ul-nav").removeClass("navbar-shrink-mobile");
+  }
+  });
+
+
+  "use strict";
+
+  
 	// Smooth scrolling using jQuery easing
 	  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
 		if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
